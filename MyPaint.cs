@@ -14,7 +14,8 @@ namespace GDIPaint
         Eraser,
         Rectangle,
         Circle,
-        Line
+        Line,
+        Fill
     }
 
     public class MyPaint
@@ -23,10 +24,10 @@ namespace GDIPaint
         {
             this.size = size;
             bitmap = new Bitmap(size.Width, size.Height);
-
             g = Graphics.FromImage(bitmap);
             g.Clear(Color.White);
         }
+
         public Size size = Size.Empty;
         public Pen p = new Pen(Color.Red, 5);
         public Tool tool = Tool.Pen;

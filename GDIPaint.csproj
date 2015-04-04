@@ -50,6 +50,7 @@
     <Compile Include="BrushSelector.Designer.cs">
       <DependentUpon>BrushSelector.cs</DependentUpon>
     </Compile>
+    <Compile Include="FloodFill.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
